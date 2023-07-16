@@ -1,3 +1,3 @@
 
 -- Add SQL in this file to drop the database tables 
-DROP TABLE users;
+DROP TABLE movies;

@@ -1,20 +1,14 @@
 {
-  "name": "platformatic-save-ip",
-  "version": "1.0.0",
-  "description": "",
   "scripts": {
-    "db:migrations": "platformatic db migrations apply",
-    "db:types": "platformatic db types",
-    "start": "platformatic db start"
+    "start": "platformatic start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "fastify": "^4.19.2"
+  },
   "dependencies": {
-    "@platformatic/sql-graphql": "0.31.0",
-    "@platformatic/sql-mapper": "0.31.0",
-    "fastify": "^4.19.2",
-    "platformatic": "^0.31.0",
-    "sqlite3": "^5.1.6"
+    "platformatic": "^0.30.1"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=19"
   }
 }
