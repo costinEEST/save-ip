@@ -4,6 +4,6 @@
  */
 declare interface User {
     id?: number;
-    ip?: string | null;
+    ip: string;
 }
 export { User };

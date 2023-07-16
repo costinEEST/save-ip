@@ -1,5 +1,5 @@
 {
-  "$schema": "https://platformatic.dev/schemas/v0.31.0/db",
+  "$schema": "https://platformatic.dev/schemas/v0.31.1/db",
   "server": {
     "hostname": "{PLT_SERVER_HOSTNAME}",
     "port": "{PORT}",
@@ -13,18 +13,14 @@
     "openapi": true
   },
   "watch": {
-    "ignore": [
-      "*.sqlite",
-      "*.sqlite-journal"
-    ]
+    "ignore": ["*.sqlite", "*.sqlite-journal"]
   },
   "migrations": {
-    "dir": "migrations"
+    "dir": "migrations",
+    "autoApply": true
   },
   "plugins": {
-    "paths": [
-      "plugin.js"
-    ]
+    "paths": ["plugin.js"]
   },
   "types": {
     "autogenerate": true

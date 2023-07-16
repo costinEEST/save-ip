@@ -55,5 +55,6 @@ PLATFORMATIC_STATIC_WORKSPACE_API_KEY: your workspace API key
 
 # TODO
 
-- How to update the Swagger docs?
-- Where can I see the URL of the deployed app?
+- Fix:
+  - `TypeError: Node.removeChild: Argument 1 is not an object.`
+  - `FastifyError: Reply was already sent.`
