@@ -1,3 +1,5 @@
+# Scaffold the project `pnpm create platformatic@latest`
+
 ```bash
  Hello Constantin Câmpean, welcome to Platformatic 0.31.0!
  Platformatic is not supported on Node.js v20.4.0.
@@ -37,10 +39,21 @@ PLATFORMATIC_DYNAMIC_WORKSPACE_API_KEY: your workspace API key
       PLATFORMATIC_STATIC_WORKSPACE_ID: your workspace id
 PLATFORMATIC_STATIC_WORKSPACE_API_KEY: your workspace API key
                          DATABASE_URL: sqlite://./db.sqlite
-
-All done! Please open the project directory and check the README.
 ```
 
-```bash
-gh secret set --env-file env.txt --repos <GITHUB_USERNAME>/<REPO>
-```
+# Dump
+
+- Deploy the app from cli with [`plt deploy`](https://youtu.be/8yTsy3SjPks)
+- [Platformatic cloud wizard](https://github.com/settings/installations/39693393)
+- https://portal.gitnation.org/contents/build-and-deploy-a-backend-with-fastify-and-platformatic
+- https://blog.platformatic.dev/deploy-a-full-stack-app-with-platformatic-vercel-and-neon
+- https://backend.cafe/how-to-build-a-pokedex-with-platformatic
+- https://www.howtographql.com/graphql-js/7-subscriptions
+- https://www.youtube.com/watch?v=2Pzu4Azmud8
+- https://youtu.be/5wG2fy0Xe0A
+- https://www.perplexity.ai/search/f029f524-9c06-4a65-83f7-6fa33186bf38
+
+# TODO
+
+- How to update the Swagger docs?
+- Where can I see the URL of the deployed app?
